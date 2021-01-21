@@ -1,0 +1,16 @@
+body{
+    background-color: #006654;
+}
+#video-grid {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+video {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
