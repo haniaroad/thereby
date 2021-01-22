@@ -9,7 +9,7 @@ var peer = new Peer(undefined, {
 
 
 const myVideo = document.createElement('video');
-myVideo.muted = false;
+myVideo.muted = true;
 
 let myVideoStream
 
