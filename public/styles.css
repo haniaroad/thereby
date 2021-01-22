@@ -1,25 +1,23 @@
 body {
 
-    background-color: #006654;
+    background-color:  #006654 !important;
     margin: 0;
     padding: 0;
 }
 
 #video-grid {
 
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    grid-auto-rows: 300px;
+    display: flex;
+
 }
 
 
 video {
 
     width: 800px;
-    object-fit: cover;
     border-radius: 8px;
     padding-left: 10%;
-    padding-top: 30%;
+    padding-top: 25%;
 }
 
 .main {
@@ -42,8 +40,8 @@ video {
     display: flex;
     padding: 5px;
     justify-content: center;
-    margin-top: 38%;
-    padding-left: 27%;
+    margin-top: 5%;
+    padding-left: 12%;
 }
 
 .controls-block {
