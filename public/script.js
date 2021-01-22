@@ -9,14 +9,14 @@ var peer = new Peer(undefined, {
 
 
 const myVideo = document.createElement('video');
-myVideo.muted = true;
+myVideo.muted = false;
 
 let myVideoStream
 
 
 navigator.mediaDevices.getUserMedia({
     video: true,
-    audio: false
+    audio: true
 }).then(stream => {
     myVideoStream = stream;
     addVideoStream(myVideo, stream)
